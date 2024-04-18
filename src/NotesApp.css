@@ -1,0 +1,41 @@
+body{
+    background-color: #6a8784;
+}
+
+.notes-app {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: #e2d9cd;
+  }
+    
+  .notes-list {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; 
+  }
+  
+  .note {
+    background-color: #e2d9cd;
+    padding: 10px;
+    border-radius: 5px;
+    flex: 1; 
+    min-width: 200px; 
+  }
+  
+  .note p {
+    margin: 0;
+  }
+  
+  .timestamp {
+    font-size: 12px;
+    color: #666;
+  }
+  
